@@ -10,4 +10,4 @@ http.createServer((req, res) => {
     } else {
         res.end('ridi...');
     }
-}).listen(5000);
+}).listen(5000 , console.log("server is run.."));
